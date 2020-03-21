@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned that express is a simple web application framework that can help us build in backend, similar to what React is for frontend. I also learned that express is unopinionated and light-weight.
+
 - [ ] Describe Middleware?
+
+Middleware are used to add features to Express. They can be thought of as an array of functions.
 
 - [ ] Describe a Resource?
 
+Everything can be seen as a resource. Each resource may be accessible through different urls.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API may return a status.
+
 - [ ] How can we partition our application into sub-applications?
+
+Through the use of routers.
 
 ## Minimum Viable Product
 
