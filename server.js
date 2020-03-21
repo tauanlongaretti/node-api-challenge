@@ -1,14 +1,14 @@
 const express = require('express');
 
-const actionRouter = require('./data/routers/actionRouter');
+const aRouter = require('./data/routers/actionRouter');
 
-const projectRouter = require('./data/routers/projectRouter');
+const pRouter = require('./data/routers/projectRouter');
 
 const server = express();
 
-server.use("/api/action", actionRouter);
+server.use("/api/action", aRouter);
 
-server.use("/api/project", projectRouter);
+server.use("/api/project", pRouter);
 
 server.get('/', (req, res) => {
     res.send(`<h2>Let's pass the node api challenge!</h2>`)

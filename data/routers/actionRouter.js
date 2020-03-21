@@ -1,5 +1,7 @@
 const express = require('express');
 
-const actionRouter = express.Router();
+const actionModel = require('../helpers/actionModel');
 
-module.exports = actionRouter;
+const aRouter = express.Router();
+
+module.exports = aRouter;
